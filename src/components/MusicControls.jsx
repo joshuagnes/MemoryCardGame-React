@@ -23,11 +23,13 @@ const MusicControls = () => {
         {isPlaying ? 'Pause Music' : 'Play Music'}
       </button>
 
-      <audio
-        id="background-music"
-        loop
-        src="MemoryCardGame-React/backgroundMusic.mp3"
-      ></audio>
+      <audio id="background-music" loop>
+        <source
+          src="https://joshuagnes.github.io/MemoryCardGame-React/backgroundMusic.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
     </>
   );
 };
