@@ -42,6 +42,7 @@ h2 {
   padding-top: 10px;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   gap: 10px;
   letter-spacing: 0.1rem;
   transition: 0.25s;
